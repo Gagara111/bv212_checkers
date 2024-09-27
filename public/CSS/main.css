@@ -1,7 +1,11 @@
 body {
     background-color: #000;
 }
-
+.VisualComponent {
+    border-width: 2vmin !important;
+    border-style: groove;
+    border-color: dimgray;
+}
 
 
 

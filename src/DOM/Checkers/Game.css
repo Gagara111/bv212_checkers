@@ -1,22 +1,17 @@
-.Checkers {
-    width: 100vw;
-    height: 100vh;
-}
-
-.Checkers {
+.Game {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
 }
-.Checkers > div {
+.Game > div {
     height: 100%;
 }
-.Checkers > div:nth-child(1),
-.Checkers > div:nth-child(3){
+.Game > div:nth-child(1),
+.Game > div:nth-child(3){
     width: 20%;
 }
-.Checkers > div:nth-child(2){
+.Game > div:nth-child(2){
     width: 60%;
 }

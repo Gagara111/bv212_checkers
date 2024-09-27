@@ -1,5 +1,5 @@
 function EnemyCemetery() {
-    return <div id="EnemyCemetery">
+    return <div id="EnemyCemetery" className="VisualComponent">
 
     </div>
 }

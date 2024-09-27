@@ -13,8 +13,6 @@ function Checkers(){
         align-items: center;
 
 
-
-
     </style>,
         <div id="Game">
 
