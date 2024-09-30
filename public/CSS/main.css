@@ -2,9 +2,9 @@ body {
     background-color: #000;
 }
 .VisualComponent {
-    border-width: 2vmin !important;
-    border-style: groove;
-    border-color: dimgray;
+    border-width: 0 !important;
+    border-radius: 50%;
+    background-color: #4E4E4E !important;
 }
 
 

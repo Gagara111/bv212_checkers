@@ -1,15 +1,15 @@
 .Checkers {
-    width: 100vw;
-    height: 100vh;
-}
-
-.Checkers {
+    width: 90vw;
+    height: 90vh;
+    /*отступы по краям , смещение , дающее див по центру экрана*/
+    transform: translate(5vw, 5vh);
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
 }
+
 .Checkers > div {
     height: 100%;
 }

@@ -1,17 +1,17 @@
 .Game {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
 }
 .Game > div {
-    height: 100%;
+    width: 100%;
 }
 .Game > div:nth-child(1),
 .Game > div:nth-child(3){
-    width: 20%;
+    height: 20%;
 }
 .Game > div:nth-child(2){
-    width: 60%;
+    height: 60%;
 }
