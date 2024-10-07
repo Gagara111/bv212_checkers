@@ -1,0 +1,24 @@
+.Board {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+}
+.Board>div>img{
+    max-width: 100%;
+    max-height: 100%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.Board__cell {
+    z-index: -1;
+}
+
+.Board__cell:nth-child(even of .FirstRow),
+.Board__cell:nth-child(even of .SecondRow) {
+    background-color: #2B2B2B;
+}
+.Board__cell:nth-child(even of .FirstRow),
+.Board__cell:nth-child(even of .SecondRow) {
+    background-color: #D0D0D0;
+}
