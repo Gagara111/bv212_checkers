@@ -1,7 +1,7 @@
 import Image from "../../../../Img/black_checker.png"
 
-function BlackChecker(props) {
-    return <div style={{groundColumn:props.y, gridRow:props.x}}>
+function BlackChecker({x, y}) {
+    return <div style={{gridColumn: y, gridRow: x}}>
            <img src={Image} alt={""}/>
            </div>;
 }
